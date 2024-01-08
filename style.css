@@ -1,0 +1,170 @@
+
+body {
+  margin: 0;
+    font-family: 'Nunito', sans-serif; 
+}
+.nav7{
+  height: 80px;
+  background-color: #4680ff;
+}
+
+.lofi{
+ display: flex;
+ justify-content: space-between;
+}
+.logopro{
+  height: 480px;
+  width: 480px;
+}
+
+.d1{
+  background-image: url("img/logopro.png");
+  background-size: cover;
+  
+}
+
+.d2{
+  background-color: #F5F5F500;
+
+  height: 800px;
+}
+.title{
+  font-size: 40px;
+  color: #4680ff;
+  border-bottom: 2px solid  ;
+}
+p{
+  color: #4680ff;
+}
+.btn{
+  margin-top: 10px;
+  height: 100px;
+  width: 300px;
+  font-size: 22px;
+  color: #4680ff;
+  border: 1px solid #4680ff;
+  border-radius: 10px;
+  background-color: #F5F5F500;
+  font-family: 'Nunito', sans-serif; 
+transition: all 0.2s ;
+cursor: pointer;
+}
+.btn:hover ,.hus:hover{
+  background-color: #4680ff;
+  color: #fff;
+}
+.btn i{
+  font-size: 30px;
+}
+
+.his{
+  height: 80px;
+  width: 100%;
+  background-color: #D3D3D340;
+}
+.hus{
+  transition: all 0.2s ;
+  cursor: pointer;
+  height: 40px;
+  width: 200px;
+  border-radius: 4px;
+  border: 1px solid #4680ff;
+  color: #4680ff; 
+ font-family: 'Nunito', sans-serif; 
+}
+.hus i{
+  font-size: 20px;
+}
+.foter{
+  color: #fff;
+height: 300px;
+background-color: #4680ff;
+}
+.ssi{
+  position: relative;
+  top: 10px;
+  left: 10%;
+}
+.ssi{
+  width: 80px;
+  border-bottom: 3px solid #fff;
+}
+.bi-geo-alt{
+  font-size: 40px;
+  color: #FFFFFF;
+}
+.icon{
+  height: 80px;
+  width: 340px;
+  display: flex;
+  justify-content: space-around;
+}
+.icon i{
+  font-size: 40px;
+  transition: all 0.3s ;
+}
+.icon i:hover{
+  font-size: 45px;
+  color: #00FFE1;
+}
+a{text-decoration: none;}
+.icon a{
+  color: #fff;
+}
+.user-nav{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  right: 20px;
+  top: 13px;
+  background-color: red;
+}
+.bkt{
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #D1D1D1;
+  position: absolute;
+  z-index: 20;
+  animation: rote 1s ;
+}
+.user{
+  height: 400px;
+  width: 330px;
+  background-color: red;
+}
+@keyframes rote{
+  0%{
+    width: 0;
+    height: 0;
+  }
+  100%{
+    width: 100%;
+    height: 100%;
+  }
+}
+/* ===================
+ css mobile
+ =====================
+*/
+
+@media only screen and (max-width: 600px) {
+ .logopro{
+  height: 400px;
+  width: 100%;
+
+}
+.d2{
+   height: 800px;
+}
+.lofi {
+  display: block;
+  justify-content: none;
+}
+.ssi{
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+}
