@@ -1,42 +1,46 @@
-
 body {
   margin: 0;
-    font-family: 'Nunito', sans-serif; 
+  font-family: 'Nunito', sans-serif;
 }
-.nav7{
+
+.nav7 {
   height: 80px;
   background-color: #4680ff;
 }
 
-.lofi{
- display: flex;
- justify-content: space-between;
+.lofi {
+  display: flex;
+  justify-content: space-between;
 }
-.logopro{
+
+.logopro {
   height: 480px;
   width: 480px;
 }
 
-.d1{
+.d1 {
   background-image: url("img/logopro.png");
   background-size: cover;
-  
+
 }
 
-.d2{
+.d2 {
   background-color: #F5F5F500;
 
   height: 800px;
 }
-.title{
+
+.title {
   font-size: 40px;
   color: #4680ff;
-  border-bottom: 2px solid  ;
+  border-bottom: 2px solid;
 }
-p{
+
+p {
   color: #4680ff;
 }
-.btn{
+
+.btn {
   margin-top: 10px;
   height: 100px;
   width: 300px;
@@ -45,126 +49,200 @@ p{
   border: 1px solid #4680ff;
   border-radius: 10px;
   background-color: #F5F5F500;
-  font-family: 'Nunito', sans-serif; 
-transition: all 0.2s ;
-cursor: pointer;
+  font-family: 'Nunito', sans-serif;
+  transition: all 0.2s;
+  cursor: pointer;
 }
-.btn:hover ,.hus:hover{
+
+.btn:hover,
+.hus:hover {
   background-color: #4680ff;
   color: #fff;
 }
-.btn i{
+
+.btn i {
   font-size: 30px;
 }
 
-.his{
+.his {
   height: 80px;
   width: 100%;
   background-color: #D3D3D340;
 }
-.hus{
-  transition: all 0.2s ;
+
+.hus {
+  transition: all 0.2s;
   cursor: pointer;
   height: 40px;
   width: 200px;
   border-radius: 4px;
   border: 1px solid #4680ff;
-  color: #4680ff; 
- font-family: 'Nunito', sans-serif; 
+  color: #4680ff;
+  font-family: 'Nunito', sans-serif;
+  background-color: #FFFFFF00;
 }
-.hus i{
+
+.hus i {
   font-size: 20px;
 }
-.foter{
+
+.foter {
   color: #fff;
-height: 300px;
-background-color: #4680ff;
+  height: 300px;
+  background-color: #4680ff;
 }
-.ssi{
+
+.ssi {
   position: relative;
   top: 10px;
   left: 10%;
 }
-.ssi{
+
+.ssi {
   width: 80px;
   border-bottom: 3px solid #fff;
 }
-.bi-geo-alt{
+
+.bi-geo-alt {
   font-size: 40px;
   color: #FFFFFF;
 }
-.icon{
+
+.icon {
   height: 80px;
   width: 340px;
   display: flex;
   justify-content: space-around;
 }
-.icon i{
+
+.icon i {
   font-size: 40px;
-  transition: all 0.3s ;
+  transition: all 0.3s;
 }
-.icon i:hover{
+
+.icon i:hover {
   font-size: 45px;
   color: #00FFE1;
 }
-a{text-decoration: none;}
-.icon a{
+
+a {
+  text-decoration: none;
+  color: #4680ff;
+}
+
+.icon a {
   color: #fff;
 }
-.user-nav{
+.user-nav {
   height: 50px;
   width: 50px;
   position: absolute;
   right: 20px;
   top: 13px;
-  background-color: red;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
 }
 .bkt{
+  box-shadow: 0 0 20px 0 black;
   right: 0;
-  height: 100%;
-  width: 100%;
-  background-color: #D1D1D1;
+  height: 0;
+  width: 0;
+  background-color: #F2F2F2;
   position: absolute;
   z-index: 20;
-  animation: rote 1s ;
+  animation: rote 0.4s;
+  display: none;
 }
-.user{
-  height: 400px;
+
+.user {
+  box-shadow: 0 0 3px 0 black;
+  border-radius: 10px;
+  height: 570px;
   width: 330px;
-  background-color: red;
+  background-color: #FFFFFF;
 }
-@keyframes rote{
-  0%{
+
+@keyframes rote {
+  0% {
     width: 0;
     height: 0;
   }
-  100%{
+
+  100% {
     width: 100%;
     height: 100%;
   }
 }
+
+.uimg {
+  height: 250px;
+  border: 2px solid #4680ff;
+  border-radius: 250px;
+}
+
+.rx {
+  width: 320px;
+}
+
+.rx i {
+  color: #4680ff;
+}
+
+.si {
+  color: #4680ff;
+  transition: all 0.5s;
+}
+
+.si:hover {
+  background-color: #FF01B4;
+  color: #fff;
+  border-radius: 10px;
+
+}
+
+.post {
+  height: 400px;
+  width: 330px;
+
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px 0 black;
+  border-radius: 10px;
+
+}
+
+
+
+
+
+
 /* ===================
  css mobile
  =====================
 */
 
 @media only screen and (max-width: 600px) {
- .logopro{
-  height: 400px;
-  width: 100%;
+  .logopro {
+    height: 400px;
+    width: 100%;
 
-}
-.d2{
-   height: 800px;
-}
-.lofi {
-  display: block;
-  justify-content: none;
-}
-.ssi{
-  position: relative;
-  top: 10px;
-  left: 10px;
-}
+  }
+
+  .d2 {
+    height: 800px;
+  }
+
+  .lofi {
+    display: block;
+    justify-content: none;
+  }
+
+  .ssi {
+    position: relative;
+    top: 10px;
+    left: 10px;
+  }
 
 }
