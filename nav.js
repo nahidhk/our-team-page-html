@@ -1,5 +1,5 @@
 var nav = `
- <section id="otk" class="bkt">
+ <section id="otk" class="vcc bkt animate__animated">
     
    <div onclick="cal()" class="user-nav si">
     <i  class="bi bi-x-lg"></i>
@@ -95,7 +95,7 @@ var nav = `
  <a href="https://www.nahidhk.info/">
    <img style="height: 80px;" src="/img/logo.png"/>
    </a>
-   <div onclick="mein()" class="user-nav">
+   <div onclick="mein()" class="user-nav" id="rod">
     <i class="bi bi-people"></i>
    </div>
    <br>

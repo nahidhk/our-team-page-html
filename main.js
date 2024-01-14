@@ -5,17 +5,17 @@ function hist() {
 }
 
 function mein() {
-  document.getElementById("otk").style = `
-  display: block;
-  height: auto;
-  width: 100%;
-  `
+  document.getElementById("otk").classList="dtk animate__bounceInUp animate__animated"
+  
+    document.getElementById("rod").style.display="none";
+
 }
 
 function cal() {
-  document.getElementById("otk").style = `
-  display: none;
-  height: auto;
-  width: 100%;
-  `
+  document.getElementById("otk").classList="dkt animate__zoomOutDown animate__animated"
+    document.getElementById("rod").style.display="block";
+setTimeout(loadi,500)
+}
+function loadi(){
+    document.getElementById("otk").classList="vcc"
 }
