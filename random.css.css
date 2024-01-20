@@ -230,13 +230,14 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-bottom: 25px;
  margin-top: 25px;
 margin-left: 15px;
-  height: 600px;
+  height: auto;
+  padding-bottom: 30px;
   background-color: #FFFFFF;
   width: 42%;
   border-radius: 10px;
 }
 .img-box{
-  height: 60%;
+  height: 50%;
   width: 100%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -252,9 +253,37 @@ margin-left: 15px;
 .user-img{
   height: 70px;
   width: 100%;
-  background-color: #B2B2B2;
+  background-color: #FFFFFF;
   
 }
+
+.user-prof {
+      display: flex;
+      align-items: center;
+      
+      background-color: #FFFFFF;
+      padding: 10px; /* Increased padding for better spacing */
+    }
+
+    .user-prof img {
+      height: 60px;
+      width: 60px;
+      border-radius: 100px;
+      margin-right: 20px; /* Adjusted margin for increased spacing */
+      border: 1px solid #4680ff;
+    }
+
+    .user-details {
+      text-align: left;
+    }
+    .outt{
+      opacity: 0.4;
+    }
+    .datatype{
+      height: 130px;
+     
+     overflow: auto;
+    }
 /* ===================
  css mobile
  =====================
@@ -266,7 +295,7 @@ margin-left: 15px;
     justify-content: none;
   }
   .card{
-     width: 90%;
+     width: 92%;
  
   }
   .logopro {
