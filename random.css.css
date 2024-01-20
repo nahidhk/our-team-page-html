@@ -219,12 +219,56 @@ input{
   
 }
 
+
+.row{
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.card{
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 25px;
+ margin-top: 25px;
+margin-left: 15px;
+  height: 600px;
+  background-color: #FFFFFF;
+  width: 42%;
+  border-radius: 10px;
+}
+.img-box{
+  height: 60%;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
+}
+.img-box img{
+  height: 100%;
+  width: 100%;
+    border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
+}
+.user-img{
+  height: 70px;
+  width: 100%;
+  background-color: #B2B2B2;
+  
+}
 /* ===================
  css mobile
  =====================
 */
 
 @media only screen and (max-width: 600px) {
+  .row{
+    display: block;
+    justify-content: none;
+  }
+  .card{
+     width: 90%;
+ 
+  }
   .logopro {
     height: 400px;
     width: 100%;
