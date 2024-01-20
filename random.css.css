@@ -195,55 +195,12 @@ a {
 
 }
 
-.post {
-  height: 550px;
-  width: 330px;
-
-  margin-left: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 0 5px 0 black;
-  border-radius: 10px;
-
-}
-.post-img{
-  height:350px; 
-  width: 100%;
-}
-.post-img img{
-  height: 100%;
-  width: 100%;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-
-}
 .ht{
   width: 150px;
   margin-left: 10px;
 }
-.upost{
-  float: left;
-  height: 60px;
-  width: 60px;
-  border: 1px solid #4680ff;
-  border-radius: 100px;
-}
-.uii{
- position: relative;
- left: 20px;
-}
-.eran{
-  position: absolute;
-  right: 60px;
-  height: 30px;
-  width: 150px;
-  background-color: #4680ff;
-  color: #fff;
-  font-size: 24px;
-  padding: 10px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px 0 #4680ff;
-}
+
+
 n{color: red}
 
 label,input{
