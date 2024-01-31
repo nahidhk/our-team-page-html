@@ -1,14 +1,5 @@
 var nav = `
-<script type="text/javascript">
-	atOptions = {
-		'key' : '31647f48a656b01d55c0ec434cc01f8c',
-		'format' : 'iframe',
-		'height' : 90,
-		'width' : 728,
-		'params' : {}
-	};
-	document.write('<scr' + 'ipt type="text/javascript" src="//www.topcreativeformat.com/31647f48a656b01d55c0ec434cc01f8c/invoke.js"></scr' + 'ipt>');
-</script>
+
  <section id="otk" class="vcc bkt animate__animated">
     
    <div onclick="cal()" class="user-nav si">
